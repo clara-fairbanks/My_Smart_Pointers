@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		925137772161B46000E384A2 /* my_memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925137752161B46000E384A2 /* my_memory.cpp */; };
 		92D0E7E321512EBF007FF293 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92D0E7E221512EBF007FF293 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		925137752161B46000E384A2 /* my_memory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = my_memory.cpp; sourceTree = "<group>"; };
+		925137762161B46000E384A2 /* my_memory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = my_memory.hpp; sourceTree = "<group>"; };
 		92D0E7DF21512EBF007FF293 /* My_Smart_Pointers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = My_Smart_Pointers; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D0E7E221512EBF007FF293 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				92D0E7E221512EBF007FF293 /* main.cpp */,
+				925137752161B46000E384A2 /* my_memory.cpp */,
+				925137762161B46000E384A2 /* my_memory.hpp */,
 			);
 			path = My_Smart_Pointers;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925137772161B46000E384A2 /* my_memory.cpp in Sources */,
 				92D0E7E321512EBF007FF293 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
